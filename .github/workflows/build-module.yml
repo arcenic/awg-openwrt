@@ -12,11 +12,11 @@ jobs:
     strategy:
       matrix:
         build_env:
-          - tag: "23.05.3"
+          - tag: "23.05.5"
             pkgarch: mips_24kc
             target: ath79
             subtarget: generic
-            vermagic: "34a8cffa541c94af8232fe9af7a1f5ba"
+            vermagic: "da89f936189e8280762513898b74a850"
 
     steps:
       - uses: actions/checkout@v4
